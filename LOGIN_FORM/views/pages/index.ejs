@@ -1,0 +1,16 @@
+<% layout("layouts/boilerplate.ejs") -%>
+
+
+  <div class="cover">
+    <h1>Registraion Form</h1>
+    <form class="login_form" method="post" action="/user/auth">
+      <label>Name:</label>
+      <input type="text" name="name" placeholder="Enter Your Name" required />
+      <label>Email Id:</label>
+      <input type="email" name="email" placeholder="xyz@gmail.com" required />
+      <label>Password: </label>
+      <input type="password" name="password" placeholder="Enter Password" required />
+      <button class="sumbit_btn" type="submit">Submit</button>
+      <button class="sumbit_btn black" type="reset">Reset</button>
+    </form>
+  </div>

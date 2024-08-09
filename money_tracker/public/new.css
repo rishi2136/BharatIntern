@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ffc65c
+}
+
+
+#heading {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  background-color: red;
+  color: white;
+  padding: 4px;
+}
+
+.wages_form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 36px 0;
+  flex-wrap: wrap;
+
+}
+
+.input_group {
+  display: inline-block;
+}
+
+.input_group label {
+  font-size: 18px;
+}
+
+.input_group input,
+select {
+  height: 32px;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 2px;
+}
+
+
+.my_btn {
+  border-radius: 12px;
+  box-shadow: -2px 2px 2px black;
+  font-weight: 600;
+}
+
+.add_btn {
+  padding: 6px 18px;
+  background-color: black;
+  color: white;
+}
+
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  table-layout: auto;
+  border: 2px solid black;
+  margin-top: 16px;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+thead tr th {
+  background-color: black;
+  color: white;
+
+}
+
+tfoot tr th {
+  background-color: rgba(0, 0, 0, 0.575);
+  color: white;
+
+}
+
+.del_btn {
+  padding: 6px 18px;
+  background-color: #ff0505;
+  color: white;
+}
+
+.reload_btn {
+  padding: 6px 18px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.error_page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.error_page p {
+  margin: 16px 0;
+}
