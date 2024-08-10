@@ -1,0 +1,17 @@
+<% layout("layouts/main.ejs") -%>
+
+  <div class="form-container">
+    <h2>Edit Your Blog Post</h2>
+    <form action="/blogpost/<%= blogPost._id %>?_method=PUT" method="POST">
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" value="<%=blogPost.title %>" required>
+
+      <label for="intro">Intro</label>
+      <input type="text" id="intro" name="intro" value="<%=blogPost.intro %>" required>
+
+      <label for="description">Description</label>
+      <textarea id="description" name="description" rows="5" required><%=blogPost.description %></textarea>
+
+      <button type="submit"> Edit Post</button>
+    </form>
+  </div>

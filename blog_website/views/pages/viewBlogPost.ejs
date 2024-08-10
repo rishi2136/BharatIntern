@@ -1,0 +1,16 @@
+<% layout("layouts/main.ejs") -%>
+
+  <div class="blog-container">
+    <h1>
+      <%= blogPost.title %>
+    </h1>
+    <p class="intro">
+      <%= blogPost.intro %>
+    </p>
+    <p class="description">
+      <%= blogPost.description %>
+    </p>
+    <p class="created-at">Posted on <%= blogPost.createdAt.toDateString() %>
+    </p>
+    <a href="/blogpost">← Back to Home</a>
+  </div>

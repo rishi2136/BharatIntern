@@ -1,0 +1,30 @@
+<% layout("layouts/main.ejs") -%>
+
+  <div>
+    <h1>BlogPost: The blogging website</h1>
+    <hr>
+
+    <% for(let idx=blogPosts.length-1; idx>=0; idx-- ) { %>
+      <div class="blog-card">
+        <h2>
+          <%= blogPosts[idx].title %>
+        </h2>
+        <p>Created: <%= blogPosts[idx].createdAt.toString().split(" ").slice(0,4).join(" ") %>
+        </p>
+        <p>
+          <%= blogPosts[idx].intro %>
+        </p>
+        <div class=" btn-container">
+            <a href=" /blogpost/<%=blogPosts[idx]._id%>" class="read-more-btn">Read More</a>
+            <form action="/blogpost/<%=blogPosts[idx]._id%>/edit">
+              <button type="submit" class="read-more-btn card-btn">Edit</button>
+            </form>
+            <form action="/blogpost/<%=blogPosts[idx]._id%>?_method=DELETE" method="post">
+              <button type="submit" class="read-more-btn card-btn">Delete</button>
+            </form>
+      </div>
+  </div>
+
+  <% } %>
+
+    </div>

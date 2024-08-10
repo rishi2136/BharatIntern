@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Understanding JavaScript Closures",
+    "intro": "Closures are a fundamental concept in JavaScript that every developer should understand.",
+    "description": "In this post, we'll explore what closures are, how they work, and why they're useful. Closures allow inner functions to access outer function variables, even after the outer function has returned. This is a powerful feature in JavaScript that can be used to create more modular and maintainable code.",
+    "createdAt": "2024-08-09T10:30:00Z"
+  },
+  {
+    "title": "A Guide to RESTful APIs with Node.js",
+    "intro": "Learn how to build RESTful APIs using Node.js and Express.",
+    "description": "This tutorial walks you through the process of creating a RESTful API from scratch using Node.js and Express. You'll learn about the principles of REST, how to set up routes, and how to handle requests and responses. By the end, you'll have a solid understanding of how to create robust APIs that can be consumed by various clients.",
+    "createdAt": "2024-08-01T15:45:00Z"
+  },
+  {
+    "title": "Mastering Asynchronous JavaScript",
+    "intro": "Asynchronous programming is crucial for building efficient web applications.",
+    "description": "In this article, we'll delve into the different ways to handle asynchronous operations in JavaScript, including callbacks, promises, and async/await. You'll learn how to manage asynchronous tasks effectively and how to avoid common pitfalls such as callback hell. By mastering these concepts, you'll be able to write cleaner, more efficient code.",
+    "createdAt": "2024-07-25T09:20:00Z"
+  },
+  {
+    "title": "Understanding MongoDB Aggregation Framework",
+    "intro": "The MongoDB Aggregation Framework is a powerful tool for data analysis and transformation.",
+    "description": "This post provides an in-depth guide to MongoDB's Aggregation Framework. We'll cover the basics of aggregation pipelines, stages, and expressions, and explore how to use these features to perform complex data transformations and aggregations. Whether you're a beginner or an experienced MongoDB user, this guide will help you unlock the full potential of MongoDB for data analysis.",
+    "createdAt": "2024-07-30T12:00:00Z"
+  },
+  {
+    "title": "An Introduction to Docker for Developers",
+    "intro": "Docker is a tool that helps developers build, share, and run applications with ease.",
+    "description": "In this introductory post, we'll explore the basics of Docker, including what it is, why it's useful, and how to get started. You'll learn how to create Docker images, run containers, and use Docker Compose to manage multi-container applications. By the end, you'll be equipped with the knowledge you need to start using Docker in your own projects.",
+    "createdAt": "2024-08-03T08:15:00Z"
+  }
+]
